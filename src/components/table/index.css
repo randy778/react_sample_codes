@@ -1,0 +1,78 @@
+.table-container{
+    padding: 16px;
+}
+.table-container .table-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.table {
+    width: 100%; 
+    border-right:1px solid #ebeef5;
+    border-bottom:1px solid #ebeef5
+}
+.table td {
+    padding: 16px;
+    border-left:1px solid #ebeef5;
+    border-top:1px solid #ebeef5
+}
+.table th {
+    padding: 16px;
+    color: #909399;
+    border-left:1px solid #ebeef5;
+    border-top:1px solid #ebeef5;
+    text-align: start;
+}
+.th-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sort {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.asc {
+    margin-bottom: 4px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid #ebeef5;
+}
+.asc:hover {
+    border-bottom: 10px solid #409eff;
+}
+.desc {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 10px solid #ebeef5;
+}
+.desc:hover {
+    border-top: 10px solid #409eff;
+}
+.data:hover {
+    background-color: #f5f7fa;
+    cursor: pointer;
+}
+.filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.filter:hover {
+    cursor: pointer;
+}
+.menu-icon {
+    width: 18px;height: 2px;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    padding: 5px 0;
+    background-color:currentColor;
+    background-clip: content-box;
+    margin-left: 5px;
+}

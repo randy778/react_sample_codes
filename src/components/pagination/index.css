@@ -1,0 +1,10 @@
+.table-pagination {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.table-pagination select {
+    padding: 4px;
+    border: none;
+}

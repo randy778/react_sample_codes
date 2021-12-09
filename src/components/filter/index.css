@@ -1,0 +1,33 @@
+.filter-content {
+    border: 1px solid #ebeef5;
+    padding: 16px 32px;
+    margin-bottom: 16px;
+}
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.search {
+    text-align: right;
+}
+.search button {
+    border-color: #447db5;
+    background-color: #447db5;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all .2s linear;
+    vertical-align: middle;
+    line-height: 16px;
+    border-radius: 3px;
+    padding: 7px 16px;
+    border: 1px solid #447db5;
+    text-align: center;
+    white-space: nowrap;
+    position: relative;
+}
